@@ -9,7 +9,7 @@ time.sleep(3)
 signIn.click()
 time.sleep(5)
 if browser.find_elements_by_css_selector('.button-base-box'):
-    print("LOG IN button exists")
+    print("There is a LOG IN button element.")
 time.sleep(2)
 
 
